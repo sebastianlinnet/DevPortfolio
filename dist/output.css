@@ -880,6 +880,14 @@ video {
   background-image: url('imgs/sebastian.jpeg');
 }
 
+.bg-\[url\(\'\.\/imgs\/sebastian\.jpeg\'\)\] {
+  background-image: url('./imgs/sebastian.jpeg');
+}
+
+.bg-\[url\(\'\.\.\/imgs\/sebastian\.jpeg\'\)\] {
+  background-image: url('../imgs/sebastian.jpeg');
+}
+
 .bg-cover {
   background-size: cover;
 }
