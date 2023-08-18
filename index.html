@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/bbe27ab0c5.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <title>Sebastian Linnet - Portfolio</title>
 </head>
 
@@ -48,114 +49,187 @@
             </div>
         </div>
     </div>
-    <div class="py-28 px-10 md:p-28 w-screen -scroll-mt-24" id="ommig">
-        <h2 class="text-2xl font-bold mb-20 text-center">Om mig</h2>
-        <div class="w-full flex flex-col md:flex-row">
-            <div class="relative md:sticky top-0 h-96 w-full md:w-1/3 bg-yellow-300 mb-20">
-                <div
-                    class="bg-red-100 absolute h-full w-full top-5 left-5 bg-[url('../imgs/sebastian.jpeg')] bg-center bg-cover">
+    <div class="container flex flex-col mx-auto py-28 px-10 md:p-28 w-screen -scroll-mt-24" id="ommig">
+            <h2 class="text-2xl font-bold mb-20 text-center">Om mig</h2>
+            <div class="w-full flex flex-col md:flex-row">
+                <div class="relative md:sticky top-0 h-96 w-full md:w-1/3 bg-yellow-300 mb-20">
+                    <div
+                        class="bg-red-100 absolute h-full w-full top-5 left-5 bg-[url('../imgs/sebastian.jpeg')] bg-center bg-cover">
+                    </div>
                 </div>
-            </div>
-            <div class="w-full md:w-2/3 z-10 h-full md:pl-24 flex items-start scroll-mt-12">
-                <div class="">
-                    <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvem er du?</h2>
-                    <p class="text-sm mb-3">
-                        Mit navn er <b>Sebastian Linnet</b>, og jeg er nyuddannet datamatiker i juni 2023. Jeg er født
-                        d. <b>14.
-                            februar 1992</b> og bor i <b>København</b>.
-                    </p>
-                    <p class="text-sm mb-3">
-                        Frontend/web passioneret udvikler med stort drive og brændende passion for IT branchen - en nørd
-                        og kreativt menneske
-                        helt ind i hjertet, med et skarpt øje for detaljen.
-                    </p>
-                    <p class="text-sm mb-12">Jeg er initiativrig og har en struktureret
-                        tilgang til mit arbejde. Mit mindset er intuitivt og løsningsorienteret. Jeg er seriøs i mit
-                        arbejde samtidig med, at jeg vægter et stærkt socialt samvær og hyggelig omgangstone højt.
-                    </p>
+                <div class="w-full md:w-2/3 z-10 h-full md:pl-24 flex items-start scroll-mt-12">
+                    <div class="">
+                        <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvem er du?</h2>
+                        <p class="text-sm mb-3">
+                            Mit navn er <b>Sebastian Linnet</b>, og jeg er nyuddannet datamatiker i juni 2023. Jeg er
+                            født
+                            d. <b>14.
+                                februar 1992</b> og bor i <b>København</b>.
+                        </p>
+                        <p class="text-sm mb-3">
+                            Frontend/web passioneret udvikler med stort drive og brændende passion for IT branchen - en
+                            nørd
+                            og kreativt menneske
+                            helt ind i hjertet, med et skarpt øje for detaljen.
+                        </p>
+                        <p class="text-sm mb-12">Jeg er initiativrig og har en struktureret
+                            tilgang til mit arbejde. Mit mindset er intuitivt og løsningsorienteret. Jeg er seriøs i mit
+                            arbejde samtidig med, at jeg vægter et stærkt socialt samvær og hyggelig omgangstone højt.
+                        </p>
 
-                    <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvad kan du?</h2>
-                    <p class="text-sm mb-3">
-                        Jeg er en passioneret frontend developer med en teknisk baggrund
-                        inden for <b>webudvikling</b> og en forkærlighed for at skabe intuitive og brugervenlige
-                        digitale
-                        oplevelser.</p>
-                    <p class="text-sm mb-3">
-                        Jeg har konkret erfaring med udvikling og vedligehold af custom temaer i <b>Wordpress</b>,
-                        e-commerce butikker i både <b>Shopify</b>, <b>Shoporama</b>, og <b>Big Cartel</b>.</p>
-                    <p class="text-sm mb-3">
-                        Frontend og dét at få brugeroplevelsen til at gå op i en højere enhed kan næsten give mig en
-                        helt euforisk følelse.
-                    </p>
-                    <p class="text-sm mb-12">
-                        Mødet mellem brugeren og det
-                        grafiske interface, er et spændende felt med uendelige muligheder, og jeg glæder mig hele tiden
-                        til at udvide mine kompetencer.
-                    </p>
-                    <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvad er din tech stack/værktøjer?</h2>
-                    <p class="text-sm mb-3">
-                        Jeg <i>elsker</i> at omsætte komplekse designkoncepter til responsivt
-                        og interaktivt frontend kode. Min erfaring inden for HTML, CSS og JavaScript giver
-                        mig mulighed for at skabe enestående brugergrænseflader og sikre, at websites fungerer
-                        problemfrit på tværs af forskellige enheder og skærmstørrelser.</p>
-                    <p class="text-sm mb-3">
-                        🌈 <b>CSS</b>: Jeg har stort kendskab til CSS, og bruger Tailwind som mit fortrukne
-                        CSS-framework.
-                        Ved at
-                        udnytte Tailwind's tilgang til CSS kan jeg hurtigt opbygge skalerbare og tilpassede stilarter,
-                        der er nemme at vedligeholde og genbruge.
-                    </p>
-                    <p class="text-sm mb-3">
-                        💡 <b>JavaScript</b>: Jeg udnytter JavaScript's funktionaliteter
-                        til at implementere interaktioner og optimere ydeevnen i mine projekter. Jeg en også
-                        forståelse for moderne
-                        frameworks og biblioteker.
-                    </p>
-                    <p class="text-sm mb-3">
-                        🔌 <b>WordPress</b>: Jeg har erfaring med at udvikle custom WordPress-temaer gennem PHP. Dette
-                        giver mig mulighed for at skabe dynamiske og alsidige websites, der er nemme for kunden at
-                        administrere og opdatere.
-                    </p>
-                    <p class="text-sm mb-3">
-                        🛍️ <b>Shopify</b>: Jeg har erfaring med Shopify og Liquid, og har udviklet skræddersyede
-                        e-commerce ved hjælp af
-                        platformen.
-                    </p>
-                    <p class="text-sm mb-3">
-                        🚀 <b>Optimering</b>: Jeg har fokus på at levere frontend-kode af høj kvalitet, der er
-                        optimeret til hurtig indlæsningstid og ydeevne. Dette sikrer en god brugeroplevelse og hjælper
-                        med at forbedre SEO for mine projekter.
-                    </p>
-                    <p class="text-sm mb-3">
-                        🌀 <b>Problemløsning</b>: Jeg har en nysgerrig og analytisk tilgang til tingene, som gør, at kan
-                        jeg identificere og løse
-                        tekniske udfordringer, der opstår i udviklingsprocessen.
-                    </p>
-                    <p class="text-sm mb-12">
-                        Jeg er altid på udkig efter nye spændende udfordringer, sprog, teknologier og muligheder inden
-                        for
-                        frontend-udvikling.
-                    </p>
-                    <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvad laver du så i din fritid?</h2>
-                    <p class="text-sm mb-3">Jeg har en kone og den skønneste lille dreng på halvandet år. Det meste af
-                        min fritid bruges derfor med min egen lille familie. Når jeg ikke er sammen med familien, elsker
-                        jeg at gå til koncerter, løbe turer gennem byen, og lave god mad. Jeg forsøger, for så vidt
-                        muligt, at holde min "fredags-pizza" tradition i live ved at lave pizza om fredagen.</p>
-                    <p class="text-sm mb-3">Jeg er temmelig dårlig til at se film uden at miste fokus (ja, jeg er en
-                        second screener) - <i>medmindre</i> det drejer sig om en b-film fra 90'erne eller start 00'erne,
-                        a la Scream, Wrong Turn,
-                        eller Final Destination. Det er peak film-making.</p>
-                    <p class="text-sm mb-3">Derudover, tro det eller ej, spiller jeg trommer i et pris-nomineret
-                        hardcore/metal band. Lyt <b><a
-                                href="https://open.spotify.com/artist/0OG1DoaGFeeXGYBGbbCjka?si=DCxY9tCNSI-UfgeHznpq2A"
-                                target="_blank" class="text-black hover:text-opacity-50">her</a></b>, hvis det kribler i
-                        fingrene.</p>
+                        <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvad kan du?</h2>
+                        <p class="text-sm mb-3">
+                            Jeg er en passioneret frontend developer med en teknisk baggrund
+                            inden for <b>webudvikling</b> og en forkærlighed for at skabe intuitive og brugervenlige
+                            digitale
+                            oplevelser.</p>
+                        <p class="text-sm mb-3">
+                            Jeg har konkret erfaring med udvikling og vedligehold af custom temaer i <b>Wordpress</b>,
+                            e-commerce butikker i både <b>Shopify</b>, <b>Shoporama</b>, og <b>Big Cartel</b>.</p>
+                        <p class="text-sm mb-3">
+                            Frontend og dét at få brugeroplevelsen til at gå op i en højere enhed kan næsten give mig en
+                            helt euforisk følelse.
+                        </p>
+                        <p class="text-sm mb-12">
+                            Mødet mellem brugeren og det
+                            grafiske interface, er et spændende felt med uendelige muligheder, og jeg glæder mig hele
+                            tiden
+                            til at udvide mine kompetencer.
+                        </p>
+                        <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvad er din tech stack/værktøjer?</h2>
+                        <p class="text-sm mb-3">
+                            Jeg <i>elsker</i> at omsætte komplekse designkoncepter til responsivt
+                            og interaktivt frontend kode. Min erfaring inden for HTML, CSS og JavaScript giver
+                            mig mulighed for at skabe enestående brugergrænseflader og sikre, at websites fungerer
+                            problemfrit på tværs af forskellige enheder og skærmstørrelser.</p>
+                        <p class="text-sm mb-3">
+                            🌈 <b>CSS</b>: Jeg har stort kendskab til CSS, og bruger Tailwind som mit fortrukne
+                            CSS-framework.
+                            Ved at
+                            udnytte Tailwind's tilgang til CSS kan jeg hurtigt opbygge skalerbare og tilpassede
+                            stilarter,
+                            der er nemme at vedligeholde og genbruge.
+                        </p>
+                        <p class="text-sm mb-3">
+                            💡 <b>JavaScript</b>: Jeg udnytter JavaScript's funktionaliteter
+                            til at implementere interaktioner og optimere ydeevnen i mine projekter. Jeg en også
+                            forståelse for moderne
+                            frameworks og biblioteker.
+                        </p>
+                        <p class="text-sm mb-3">
+                            🔌 <b>WordPress</b>: Jeg har erfaring med at udvikle custom WordPress-temaer gennem PHP.
+                            Dette
+                            giver mig mulighed for at skabe dynamiske og alsidige websites, der er nemme for kunden at
+                            administrere og opdatere.
+                        </p>
+                        <p class="text-sm mb-3">
+                            🛍️ <b>Shopify</b>: Jeg har erfaring med Shopify og Liquid, og har udviklet skræddersyede
+                            e-commerce ved hjælp af
+                            platformen.
+                        </p>
+                        <p class="text-sm mb-3">
+                            🚀 <b>Optimering</b>: Jeg har fokus på at levere frontend-kode af høj kvalitet, der er
+                            optimeret til hurtig indlæsningstid og ydeevne. Dette sikrer en god brugeroplevelse og
+                            hjælper
+                            med at forbedre SEO for mine projekter.
+                        </p>
+                        <p class="text-sm mb-3">
+                            🌀 <b>Problemløsning</b>: Jeg har en nysgerrig og analytisk tilgang til tingene, som gør, at
+                            kan
+                            jeg identificere og løse
+                            tekniske udfordringer, der opstår i udviklingsprocessen.
+                        </p>
+                        <p class="text-sm mb-12">
+                            Jeg er altid på udkig efter nye spændende udfordringer, sprog, teknologier og muligheder
+                            inden
+                            for
+                            frontend-udvikling.
+                        </p>
+                        <h2 class="text-2xl font-bold mb-3 md:-ml-12">Hvad laver du så i din fritid?</h2>
+                        <p class="text-sm mb-3">Jeg har en kone og den skønneste lille dreng på halvandet år. Det meste
+                            af
+                            min fritid bruges derfor med min egen lille familie. Når jeg ikke er sammen med familien,
+                            elsker
+                            jeg at gå til koncerter, løbe turer gennem byen, og lave god mad. Jeg forsøger, for så vidt
+                            muligt, at holde min "fredags-pizza" tradition i live ved at lave pizza om fredagen.</p>
+                        <p class="text-sm mb-3">Jeg er temmelig dårlig til at se film uden at miste fokus (ja, jeg er en
+                            second screener) - <i>medmindre</i> det drejer sig om en b-film fra 90'erne eller start
+                            00'erne,
+                            a la Scream, Wrong Turn,
+                            eller Final Destination. Det er peak film-making.</p>
+                        <p class="text-sm mb-3">Derudover, tro det eller ej, spiller jeg trommer i et pris-nomineret
+                            hardcore/metal band. Lyt <b><a
+                                    href="https://open.spotify.com/artist/0OG1DoaGFeeXGYBGbbCjka?si=DCxY9tCNSI-UfgeHznpq2A"
+                                    target="_blank" class="text-black hover:text-opacity-50">her</a></b>, hvis det
+                            kribler i
+                            fingrene.</p>
+
+                        <!-- <div :class="" x-data="{ open: false, items: [] }" x-init="items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6']">
+                                    <div x-show="!open" class="block sm:hidden">
+                                        <template x-for="item in items.slice(0, open ? items.length : 3)">
+                                            <div x-text="item" class="mb-2"></div>
+                                        </template>
+                                    </div>
+                                    <div x-show="open">
+                                        <template x-for="item in items">
+                                            <div x-text="item" class="mb-2"></div>
+                                        </template>
+                                    </div>
+                                    <div x-show="!open" class="hidden sm:block">
+                                        <template x-for="item in items">
+                                            <div x-text="item" class="mb-2"></div>
+                                        </template>
+                                    </div>
+                            <button x-on:click="open = !open" class="sm:hidden">Toggle Dropdown</button>
+                        </div> -->
+
+
+                        <!-- <div x-data="{ open: false, items: [] }" x-init="items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6']">
+                            <div x-show="!open" >
+                                <template x-for="item in items">
+                                    <div x-text="item" class="mb-2"></div>
+                                </template>
+                            </div>
+                            <button x-on:click="open = !open">Toggle Dropdown</button>
+                        </div> -->
+
+
+
+                        <!-- <div x-data="{ open: false }" x-init="open = window.innerWidth >= 640">
+                            <div>
+                                Dropdown Contents 1...
+                            </div>
+                            <div x-show="open" x-collapse>
+                                Dropdown Contents 2...
+                            </div>
+                            <button x-on:click="open = !open" class="sm:hidden">Toggle Dropdown</button>
+                        </div>
+                        
+
+                        <div x-data="{ showAll: window.matchMedia('(min-width: 768px)').matches }">
+                            <ul class="grid grid-cols-3 gap-4">
+                                <template x-for="(item, index) in items">
+                                    <li x-show="showAll || index < 3" x-cloak class="p-4 drop-shadow-md border-2" :class="{'hidden': !showAll && index >= 3}">
+                                        <span x-text="item"></span>
+                                    </li>
+                                </template>
+                            </ul>
+                            <button x-on:click="showAll = !showAll" class="md:hidden">Show More</button>
+                        </div>
+                        
+                        <script>
+                            const items = ['Item 1', 'Item 2', 'Item 3', 'Item 4', 'Item 5', 'Item 6', 'Item 7', 'Item 8', 'Item 9'];
+                        </script> -->
+
+
+
+
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
 
-    <div class="py-28 px-10 md:p-28 -scroll-mt-24 w-screen" id="cv">
+    <div class="container mx-auto py-28 px-10 md:p-28 -scroll-mt-24 w-screen" id="cv">
         <div class="">
             <h2 class="text-2xl font-bold mb-20 text-center">Erhvervserfaring og uddannelse</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -225,7 +299,7 @@
             </div>
         </div>
     </div>
-    <div id="portfolio" class="w-screen py-28 px-10 md:p-28 -scroll-mt-24">
+    <div id="portfolio" class="container mx-auto w-screen py-28 px-10 md:p-28 -scroll-mt-24">
         <h2 class="text-2xl font-bold mb-20 text-center">Udvalgt portfolio</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 md:gap-x-10 md:gap-y-32">
             <div class="overflow-hidden w-full">
@@ -248,9 +322,10 @@
                     <li>- Shoporama</li>
                 </ul>
                 <p class="mb-2">Temaet bruges blandt andet af <a href="https://koogko.dk" target="_blank"
-                        class="text-black hover:text-opacity-50">koogko.dk</a>, <a href="https://bilvask.dk" target="_blank"
-                        class="text-black hover:text-opacity-50">bilvask.nu</a>, <a href="https://vicca.dk" target="_blank"
-                        class="text-black hover:text-opacity-50">vicca.dk</a></p>
+                        class="text-black hover:text-opacity-50">koogko.dk</a>, <a href="https://bilvask.dk"
+                        target="_blank" class="text-black hover:text-opacity-50">bilvask.nu</a>, <a
+                        href="https://vicca.dk" target="_blank" class="text-black hover:text-opacity-50">vicca.dk</a>
+                </p>
                 <a href="https://shoporama.1260.io" target="_blank"
                     class="bg-yellow-300 px-5 py-3 inline-block hover:bg-yellow-200 transition duration-200">Besøg
                     siden her</a>
@@ -325,7 +400,7 @@
         </div>
         <p class="sm:mt-10 italic">... og meget, meget mere</p>
     </div>
-    <div id="kontakt" class="w-screen py-28 px-10 md:p-28">
+    <div id="kontakt" class="container mx-auto w-screen py-28 px-10 md:p-28">
         <h2 class="text-2xl font-bold mb-20 text-center">Kontakt</h2>
         <div class="grid grid-cols-1 gap-20 md:gap-0 md:grid-cols-3 md:h-52">
             <div class="flex justify-center flex-col items-center hover:scale-125 transition duration-300">
